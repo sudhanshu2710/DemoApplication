@@ -1,0 +1,38 @@
+.Navbar {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 70% 20%;
+  background-color: rgb(67, 119, 161);
+  position: sticky;
+  top: 0;
+  align-items: center;
+}
+.Heading {
+  margin-right: 70%;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+.bar {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.Navbar > div {
+  margin-left: 10px;
+}
+.dontShow {
+  display: none;
+}
+
+.Navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar a:hover,
+.Navbar a:active,
+.Navbar a.active {
+  color: #95bcf0;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #95bcf0;
+}
